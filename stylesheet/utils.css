@@ -1,0 +1,15 @@
+/* css variables */
+
+
+:root {
+    --main-bg-color: #2878f0;
+}
+
+
+
+
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

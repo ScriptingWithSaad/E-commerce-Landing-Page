@@ -1,0 +1,89 @@
+/* mobile device */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color: chartreuse;
+
+    }
+
+    .navbar-logo a>img {
+        padding-left: 10px;
+        height: 3.5vh;
+        width: 28vw;
+    }
+
+    .nav-items {
+        height: 8vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .nav-items li {
+        padding: 0px 12px;
+    }
+
+    .nav-items li input {
+        display: none;
+    }
+
+    .search-btn {
+        display: none;
+    }
+
+    .slider {
+        margin: 15px auto;
+        width: 90vw;
+        height: 30vh;
+    }
+
+    .slider>img {
+        width: 90vw;
+        height: 30vh;
+    }
+
+    .cards-section {
+        position: absolute;
+        top: 300px;
+    }
+
+    .card-1-inner {
+        overflow: scroll;
+    }
+
+    /* scrollbar */
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: grey;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgb(255, 0, 0);
+        border-radius: 20px;
+    }
+}
+
+
+
+/* ipad and tablets */
+
+@media only screen and(min-width: 481px)and(max-width: 768px) {}
+
+/* Small screens, laptops */
+
+@media only screen and(min-width: 769px)and(max-width: 1024px) {}
+
+/* Desktops, large screens */
+
+@media only screen and(min-width: 1025px)and(max-width: 1200px) {}
+
+/* Extra large screens, TV */
+
+@media only screen and (min-width: 1201px) {
+    .nav-items i {
+        display: none;
+    }
+}
